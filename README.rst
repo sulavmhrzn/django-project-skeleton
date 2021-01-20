@@ -33,7 +33,7 @@ To use this repository just use the ``template`` option of `django-admin
 
     $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip [projectname]
 
-If you wish to automagically fill the ``apache2_vhost.sample`` the command is::
+If you wish to automatically fill the ``apache2_vhost.sample`` the command is::
 
     $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip --name apache2_vhost.sample [projectname]
 
